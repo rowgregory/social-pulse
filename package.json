@@ -1,0 +1,12 @@
+{
+  "name": "social-pulse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm --prefix client run dev"
+  },
+  "author": "Gregory Row",
+  "license": "MIT"
+}

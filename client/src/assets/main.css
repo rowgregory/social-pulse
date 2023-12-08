@@ -1,0 +1,47 @@
+@tailwind case;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  border-width: 0;
+  border-style: solid;
+}
+
+/* #app {
+  margin: 0 auto;
+  font-weight: normal;
+} */
+
+body {
+  margin: 0;
+}
+
+a,
+div,
+p,
+span {
+  font-family: 'Robobo', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(44, 43, 43);
+  transition: 0.4s;
+}
+
+/* @media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    width: 100%;
+  }
+} */
